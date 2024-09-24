@@ -165,11 +165,11 @@ Contenido a incluir
     <class>es.uvigo.mei.pedidos.entidades.Pedido</class>
     
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pruebas_si?serverTimezone=UTC"/>
-      <property name="javax.persistence.jdbc.user" value="si"/>
-      <property name="javax.persistence.jdbc.password" value="si"/>
-      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+      <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pruebas_si?serverTimezone=UTC"/>
+      <property name="jakarta.persistence.jdbc.user" value="si"/>
+      <property name="jakarta.persistence.jdbc.password" value="si"/>
+      <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
       
       <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
       <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
